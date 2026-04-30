@@ -18,13 +18,13 @@
 
 ## Guided Track Setup
 
-**Prerequisite:** Python 3.10 or higher
+**Prerequisite:** [uv](https://docs.astral.sh/uv/) (handles Python 3.10+ automatically)
 
 ```bash
 cd scaffold
-python3 -m venv .venv
+uv venv --python 3.10
 source .venv/bin/activate
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 ### Files to Fill In
